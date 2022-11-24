@@ -26,23 +26,28 @@ body{
 }
 .logo{
     width: 10.5rem;
+
 }
 .searchbox{
     width: 50%;
 }
 .search-bar{
-    height: 4rem;
-    position: relative;
-    flex: 1;
-    flex-basis: 1e-9px;
+    /* height: 4rem; */
+    width:auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
+
 }
 .header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+.searchinput{
+    width: 30rem;
 }
 .searchbutton{
 

@@ -29,7 +29,9 @@ body{
 
 }
 .searchbox{
-    width: 50%;
+    display: inline-block;
+    width: 30%;
+    
 }
 .search-bar{
     /* height: 4rem; */
@@ -44,10 +46,22 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+   justify-content: space-between;
+}
+.user-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 .searchinput{
     width: 30rem;
+}
+.profile{
+    height: 3rem;
+    width: 2rem;
+    border-radius: 50%;
+    padding: auto;
 }
 .searchbutton{
 
